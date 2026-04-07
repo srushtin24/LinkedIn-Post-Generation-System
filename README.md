@@ -2,7 +2,7 @@
 
 An intelligent content generation system that leverages **few-shot learning with Large Language Models (LLMs)** to generate high-quality, style-consistent LinkedIn posts based on user-defined parameters such as topic, tone, and length.
 
----
+
 
 ## 🚀 Overview
 
@@ -10,7 +10,7 @@ This project implements a **few-shot prompt engineering pipeline** where the mod
 
 Unlike generic text generators, this system focuses on **style conditioning and controlled generation**, making it suitable for professional content creation.
 
----
+
 
 ## ✨ Key Features
 
@@ -32,6 +32,47 @@ Unlike generic text generators, this system focuses on **style conditioning and 
 - 🔹 **Interactive UI**
   - Built using Streamlit for real-time post generation
 
----
+
 
 ## 🧠 System Architecture
+
+User Input (Topic, Tone, Length)
+↓
+Example Retrieval (Few-Shot Selection)
+↓
+Prompt Construction (Examples + Instructions)
+↓
+LLM (via API)
+↓
+Generated LinkedIn Post
+↓
+Streamlit UI
+
+
+
+## 🛠️ Tech Stack
+
+- **Language:** Python  
+- **LLM Integration:** Groq / OpenAI API  
+- **Framework:** Streamlit  
+- **Prompt Engineering:** Few-shot learning  
+- **Data Processing:** Pandas / JSON handling  
+
+
+
+## ⚙️ How It Works
+
+1. User provides:
+   - Topic
+   - Tone
+   - Desired length
+
+2. System:
+   - Filters and selects relevant example posts
+   - Constructs a few-shot prompt
+
+3. LLM:
+   - Generates a post based on examples and instructions
+
+4. Output:
+   - High-quality LinkedIn-ready content
