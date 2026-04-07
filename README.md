@@ -76,7 +76,7 @@ Streamlit UI<br>
 
 4. Output:
    - High-quality LinkedIn-ready content
-
+<br>
 
 🚀 Future Improvements<br>
 Integrate vector database (RAG + few-shot hybrid)<br>
