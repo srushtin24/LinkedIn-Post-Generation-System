@@ -78,7 +78,8 @@ Streamlit UI<br>
    - High-quality LinkedIn-ready content
 <br>
 
-🚀 Future Improvements<br>
+## 🚀 Future Improvements<br>
+
 Integrate vector database (RAG + few-shot hybrid)<br>
 Add engagement scoring model<br>
 Introduce multi-agent refinement pipeline<br>
