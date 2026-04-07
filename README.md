@@ -36,17 +36,17 @@ Unlike generic text generators, this system focuses on **style conditioning and 
 
 ## 🧠 System Architecture
 
-User Input (Topic, Tone, Length)
-↓
-Example Retrieval (Few-Shot Selection)
-↓
-Prompt Construction (Examples + Instructions)
-↓
-LLM (via API)
-↓
-Generated LinkedIn Post
-↓
-Streamlit UI
+User Input (Topic, Tone, Length)<br>
+↓<br>
+Example Retrieval (Few-Shot Selection)<br>
+↓<br>
+Prompt Construction (Examples + Instructions)<br>
+↓<br>
+LLM (via API)<br>
+↓<br>
+Generated LinkedIn Post<br>
+↓<br>
+Streamlit UI<br>
 
 
 
