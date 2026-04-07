@@ -76,3 +76,10 @@ Streamlit UI<br>
 
 4. Output:
    - High-quality LinkedIn-ready content
+
+
+🚀 Future Improvements
+Integrate vector database (RAG + few-shot hybrid)<br>
+Add engagement scoring model<br>
+Introduce multi-agent refinement pipeline<br>
+Build FastAPI backend for production deployment<br>
